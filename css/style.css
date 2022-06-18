@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    --themecolor: #56548C;
+    --dack:#000;
+    --greencolor:#21B573;
+    --shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+   
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.navbar-toggler:focus {
+  
+    box-shadow: 0 0 0 transparent !important;
+}
+/***Header section***/
+header{
+    background-color: #F0FFF0;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+padding: 8px 28px !important;
+border: 2px solid transparent;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+
+border: 2px solid var(--greencolor);
+border-radius: 33px;
+
+}
+.bannerContent{}
+.bannerContent h5{
+  
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FD511A;
+
+}
+.bannerContent h1{
+  
+font-weight: 700;
+font-size: 48px;
+line-height: 70px;
+max-width: 410px;
+}
+.bannerContent h1 span{
+    color: var(--greencolor);
+}
+.bannerContent p{
+  
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+color: #6C6B6B;
+max-width: 410px;
+}
+ .btnCastom{
+padding: 8px 28px;
+border-radius: 33px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+background-color: var(--greencolor);
+line-height: 19px;
+color: #FFFFFF !important;
+border: 2px solid var(--greencolor);
+}
+.btnCastom:hover{
+    border: 2px solid var(--greencolor);
+   
+    font-weight: 400;
+    color: var(--greencolor) !important;
+
+}
+.bannerImg{
+    padding: 50px 0;
+}
+.bannerImg img{
+  
+    
+    }
+/***feature section***/
+.featureSecion{ 
+    padding: 50px 0px;
+}
+.feature{
+   background-color: #F8FFFB;
+    text-align: center;
+    padding: 50px 30px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.feature:hover{
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
+.feature img{
+   
+    height: 80px;
+
+}
+.feature h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--dack);
+    margin: 15px 0 0;
+}
+.feature p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+/***couse section***/
+.couseSection{}
+.hading{
+    padding: 50px 0 50px;
+}
+.hading h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: var(--dack);
+    text-align: center;
+}
+ .couse{
+    box-shadow: var(--shadow);
+    padding: 24px 20px 30px;
+    border-radius: 18px;
+    transition: all 0.3s;
+   
+ }
+ .couse:hover{
+   box-shadow: 0 0 0 transparent;
+ }
+ .couse img{}
+ .couse h2{
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: var(--dack);
+ }
+ .couse p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: var(--dack);
+ }
+ .couse .btnCastom{}
+ .couse ul { 
+    margin-top: 30px;
+     justify-content: space-between;
+    }
+ .couse ul li{}
+ .couse ul li svg{}
+ .couse ul li span{margin-left: 6px;}
+
+ .testimonialSection{
+    padding-bottom: 60px;
+ }
+ .testimonialImg{
+    text-align: center;
+ }
+ .testimonialImg img{
+    width: 120px;
+    height: 120px;
+  
+ }
+ .testimoniaContent{}
+ .testimoniaContent p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+color: var(--dack);
+ }
+
+/***footer section***/
+footer{
+    background-color: var(--dack);
+    padding: 50px 0 30px;
+}
+.widget{}
+.widget p{
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+}
+.widget strong{
+color: #FFFFFF;
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+}
+.widget ul{}
+.widget ul li{}
+.widget ul li a{
+   color: #FFFFFF;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px; 
+   text-decoration: none;
+}
+.widget ul li a:hover{
+    color: #FFFFFF; 
+ }
+.Copyright{
+ text-align: center;
+}
+.Copyright p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #CDCDCD;
+    margin-bottom: 0;
+    margin-top: 60px;
+    
+}
+.Copyright p a{
+    color: #CDCDCD;
+text-decoration: none;
+font-weight: 600;
+}
+.Copyright p a:hover{
+    color: #FFFFFF; 
+    text-decoration: none;
+  
+}
+
+
